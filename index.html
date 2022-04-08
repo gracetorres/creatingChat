@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="funcionesIniciales()">
+    
+
+    <div id="contenedor" class="flex-column align-center">
+        <div class="flex-row mt-20" >
+           <div class="c-nombres flex-column">
+             <img  src="https://www.salud180.com/sites/default/files/como-cortarle-las-unas-a-tu-perrito-en-casa-sin-lastimarlo1.jpg" alt="">  
+             <div class="flex-row justify-content">
+                <label class="nombr" for="">Juan</label>
+                <input id="radio1" type="radio" name="radio" value="juan">    
+             </div>  
+                 
+           </div>
+
+           <div class="c-nombres flex-column">
+            <img src="https://imagenes.elpais.com/resizer/Uu9NjpW6efLnS49S5BGtFEV1jvc=/1960x1470/cloudfront-eu-central-1.images.arcpublishing.com/prisa/ZY2QCOQQO4GHP4Y3OWH7BMJLUM.jpg" alt="">    
+            <div class="flex-row justify-content">
+                <label class="nombr" for="">Miguel</label>
+                <input id="radio2" type="radio" name="radio" value="miguel"> 
+            </div>
+                   
+          </div>       
+        </div>
+
+        <div id="chatContenedor" class="flex-column justify-content mt-100 color w-60 ">
+
+            <div class="flex-column" >
+                <div  class="flex-column" id="espacio" >
+<!--                     
+                    <label id="labelUsuario" class="blanco" for="">nombre</label>
+                    <label id="labelMensaje" class="blanco" for="">mensaje</label> -->
+                </div>
+                
+            </div>
+            <div class="flex-row ">
+                <input id="inpMensaje" class="w-100" type="text">
+                <button class="boton" onclick="nuevoMensaje()">Enviar</button>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>
